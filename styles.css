@@ -1,10 +1,4 @@
 
-@font-face {
-  font-family: 'YoonChildfundkoreaManSeh';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/YoonChildfundkoreaManSeh.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 
@@ -14,11 +8,6 @@ body {
   margin: 50px;
 }
 
-h1 {
-  font-family: 'YoonChildfundkoreaManSeh';
-  text-align: center;
-  font-size: 100px;
-}
 
 #Text {
   font-size: 20px;
