@@ -7,8 +7,8 @@ const captchaCanvas = document.getElementById('captchaCanvas');
 const ctx = captchaCanvas.getContext('2d', { willReadFrequently: true }); 
 
 // 캔버스 크기 설정
-captchaCanvas.width = 800; // 캔버스 가로 1000px
-captchaCanvas.height = 300; // 캔버스 높이 700px
+captchaCanvas.width = 800; // 캔버스 가로
+captchaCanvas.height = 300; // 캔버스 높이
 
 // SpeechRecognition API 초기화
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
