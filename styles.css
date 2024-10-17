@@ -1,0 +1,53 @@
+
+@font-face {
+  font-family: 'YoonChildfundkoreaManSeh';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/YoonChildfundkoreaManSeh.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-family: 'YoonChildfundkoreaManSeh';
+  text-align: center;
+  font-size: 100px;
+}
+
+#Text {
+  font-size: 20px;
+  color: #333;
+  text-align: center; /* 왼쪽 정렬 */
+  margin-left: 20px; /* 왼쪽 여백 */
+  margin-bottom: 20px; /* 아래 여백 */
+}
+
+button {
+  padding: 10px 30px; /* 버튼 크기 증가 */
+  font-size: 15px;    /* 버튼 폰트 크기 증가 */
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+p {
+  font-size: 30px;    /* 텍스트 크기 증가 */
+  color: #333;
+}
+
+#captchaContainer {
+  margin-top: 20px;
+  position: relative;
+}
+
+#captchaCanvas {
+  background-color: #fff;
+  width: 800px; /* 가로 1000px으로 설정 */
+  height: 300px; /* 세로 700px으로 설정 */
+  border: 1px solid #333;
+}
