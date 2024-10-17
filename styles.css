@@ -36,7 +36,7 @@ p {
 
 #captchaCanvas {
   background-color: #fff;
-  width: 800px; /* 가로 1000px으로 설정 */
-  height: 300px; /* 세로 700px으로 설정 */
+  width: 800px; 
+  height: 300px; 
   border: 1px solid #333;
 }
